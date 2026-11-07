@@ -91,7 +91,7 @@ students with no phone still appear), `course_student_count_view`,
 - **Portability.** Uses only standard features plus `SUBSTRING_INDEX` (MySQL/
   MariaDB) for the "city from address" reports.
 
-## Résumé / viva talking points
+## Takaway Points
 
 - Designed a normalized (3NF) relational schema of six tables with PK/FK
   constraints and cascading deletes to guarantee referential integrity.
@@ -103,7 +103,7 @@ students with no phone still appear), `course_student_count_view`,
 - Can explain the 3NF trade-off in the `faculty` table and when denormalization
   is acceptable.
 
-## Possible extensions (if you want to grow it)
+## Possible extensions
 
 - `credits`-based constraints and a trigger that blocks over-enrollment.
 - A stored procedure `enroll_student(sid, cid)` with validation.
